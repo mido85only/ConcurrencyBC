@@ -11,7 +11,7 @@ import SwiftUI
 struct ConcurrencyBCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AsyncAwaitBC()
         }
     }
 }

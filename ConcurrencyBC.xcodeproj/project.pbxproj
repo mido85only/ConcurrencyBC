@@ -11,6 +11,12 @@
 		218019112A7265FA002BF761 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218019102A7265FA002BF761 /* ContentView.swift */; };
 		218019132A7265FD002BF761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218019122A7265FD002BF761 /* Assets.xcassets */; };
 		218019162A7265FD002BF761 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218019152A7265FD002BF761 /* Preview Assets.xcassets */; };
+		2180191D2A726617002BF761 /* DoCatchTryThrowBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2180191C2A726617002BF761 /* DoCatchTryThrowBC.swift */; };
+		21A602692A79234E00A9E08F /* TaskBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A602682A79234E00A9E08F /* TaskBC.swift */; };
+		21A6026B2A79372300A9E08F /* AsyncLetBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A6026A2A79372300A9E08F /* AsyncLetBC.swift */; };
+		21A6026D2A7950F800A9E08F /* TaskGroupBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A6026C2A7950F800A9E08F /* TaskGroupBC.swift */; };
+		21CAC4DE2A78F0CF008F005C /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CAC4DD2A78F0CF008F005C /* DownloadImageAsync.swift */; };
+		21CAC4E02A79028B008F005C /* AsyncAwaitBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CAC4DF2A79028B008F005C /* AsyncAwaitBC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		218019102A7265FA002BF761 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		218019122A7265FD002BF761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		218019152A7265FD002BF761 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2180191C2A726617002BF761 /* DoCatchTryThrowBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowBC.swift; sourceTree = "<group>"; };
+		21A602682A79234E00A9E08F /* TaskBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBC.swift; sourceTree = "<group>"; };
+		21A6026A2A79372300A9E08F /* AsyncLetBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetBC.swift; sourceTree = "<group>"; };
+		21A6026C2A7950F800A9E08F /* TaskGroupBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBC.swift; sourceTree = "<group>"; };
+		21CAC4DD2A78F0CF008F005C /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
+		21CAC4DF2A79028B008F005C /* AsyncAwaitBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				2180190E2A7265FA002BF761 /* ConcurrencyBCApp.swift */,
+				2180191C2A726617002BF761 /* DoCatchTryThrowBC.swift */,
+				21A6026A2A79372300A9E08F /* AsyncLetBC.swift */,
+				21A602682A79234E00A9E08F /* TaskBC.swift */,
+				21CAC4DF2A79028B008F005C /* AsyncAwaitBC.swift */,
+				21A6026C2A7950F800A9E08F /* TaskGroupBC.swift */,
+				21CAC4DD2A78F0CF008F005C /* DownloadImageAsync.swift */,
 				218019102A7265FA002BF761 /* ContentView.swift */,
 				218019122A7265FD002BF761 /* Assets.xcassets */,
 				218019142A7265FD002BF761 /* Preview Content */,
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CAC4DE2A78F0CF008F005C /* DownloadImageAsync.swift in Sources */,
+				21A6026D2A7950F800A9E08F /* TaskGroupBC.swift in Sources */,
 				218019112A7265FA002BF761 /* ContentView.swift in Sources */,
+				21CAC4E02A79028B008F005C /* AsyncAwaitBC.swift in Sources */,
+				21A6026B2A79372300A9E08F /* AsyncLetBC.swift in Sources */,
+				21A602692A79234E00A9E08F /* TaskBC.swift in Sources */,
 				2180190F2A7265FA002BF761 /* ConcurrencyBCApp.swift in Sources */,
+				2180191D2A726617002BF761 /* DoCatchTryThrowBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
